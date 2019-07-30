@@ -8,7 +8,7 @@ brackets = [[0, 12], [13, 18], [19, 24], [25, 34], [35, 44], [45, 54],
 def compute_age_bracket(age):
     n_age = int(age)
     for br in brackets:
-        if n_age < br[1]:
+        if n_age <= br[1]:
             return f'{br[0]}-{br[1]}'
     else:
         return '100+'
