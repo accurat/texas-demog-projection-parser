@@ -2,7 +2,7 @@ import pandas as pd
 from boltons.cacheutils import cachedproperty
 
 brackets = [[0, 12], [13, 18], [19, 24], [25, 34], [35, 44], [45, 54],
-            [55, 65], [75, 99]]
+            [55, 65], [65, 99]]
 
 
 def compute_age_bracket(age):
